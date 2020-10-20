@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="color-picker.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex-container">
+        <canvas></canvas>
+
+        <div class="control-panel">
+            <div class="controller-container">
+                <label id="width-label">Line Width:</label>
+                <input class="controller line-width" type="button" value="+">
+                <input class="controller line-width" type="button" value="-">
+                <input class="controller line-width" id="reset" type="button" value="reset">
+            </div>
+            <div class="controller-container">
+                <label id="lines-label">Lines Count: </label>
+                <input class="controller line-count" type="button" value="+">
+                <input class="controller line-count" type="button" value="-">
+                <input class="controller line-count" id="reset" type="button" value="reset">
+            </div>
+            <div class="color-picker-container">
+                <label>Current Color:</label>
+                <input id="color-picker" type="text" value="#000" />
+            </div>
+            <div class="canvas-operations-container">
+                <input type="button" value="Clear Canvas" id="reset-canvas">
+                <a href="#" id="download-link">Save Image</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="color-picker.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

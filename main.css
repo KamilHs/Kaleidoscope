@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+input {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.controller-container input {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+#reset {
+    width: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-panel {
+    user-select: none;
+}
+
+.control-panel > div {
+    margin: 20px;
+}
+#color-picker {
+    padding: 3px 0;
+    text-align: center;
+}
+
+#reset-canvas {
+    padding: 10px;
+}
+
+#download-link {
+    text-decoration: none;
+    padding: 9px;
+    color: black;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+}
